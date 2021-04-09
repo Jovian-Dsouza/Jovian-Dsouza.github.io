@@ -1,22 +1,6 @@
 [
   
     {
-      "title"    : "Digital Minimalism",
-      "category" : "",
-      "tags"     : "Social Media, Minimalism, Technology",
-      "url"      : "/blog/digital-minimalism",
-      "date"     : "2019-02-20 00:00:00 -0600"
-    } ,
-  
-    {
-      "title"    : "Learn React.js in 5 minutes",
-      "category" : "",
-      "tags"     : "React, JavaScript, Web Development",
-      "url"      : "/blog/learn-react-js",
-      "date"     : "2019-02-15 00:00:00 -0600"
-    } ,
-  
-    {
       "title"    : "Clean Coding",
       "category" : "",
       "tags"     : "Software Development, Clean Code",
@@ -30,14 +14,6 @@
       "tags"     : "JavaScript, Nodejs, Web Development",
       "url"      : "/blog/what-the-heck-is-a-callback",
       "date"     : "2018-12-01 00:00:00 -0600"
-    } ,
-  
-    {
-      "title"    : "4 Lessons After 11 Years in Silicon Valley",
-      "category" : "",
-      "tags"     : "",
-      "url"      : "/blog/four-lessons-after-eleven-years-in-silicon-valley",
-      "date"     : "2018-05-09 00:00:00 -0500"
     } ,
   
     {
