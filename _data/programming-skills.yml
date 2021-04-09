@@ -1,11 +1,23 @@
-- name: HTML5/CSS3
+- name: ROS/ROS2
   percentage: 90
   color: danger
 
-- name: Go
-  percentage: 80
-  color:
-
 - name: Python
-  percentage: 70
+  percentage: 95
+  color: warning
+
+- name: C/C++
+  percentage: 80
   color: dark
+
+- name: PyTorch
+  percentage: 75
+  color: 
+
+- name: Algorithms
+  percentage: 85
+  color: success
+
+- name: SQL
+  percentage: 100
+  color: secondary

@@ -1,7 +1,7 @@
-- name: Adobe Photoshop
+- name: Electronics and Embedded Systems
   percentage: 95
   color: info
 
-- name: Adobe Illustrator
+- name: AutoDesk Fusion 360
   percentage: 90
   color: success

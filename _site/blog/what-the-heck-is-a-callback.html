@@ -10,27 +10,16 @@
 
 <head>
 
-  
-  
-
-  
-
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""I turn coffee :coffee: into code, use tabs over spaces and never broke production."">
 
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="What the heck is a Callback?">
-  <meta property="og:description" content="Learn and understand the basics of callbacks in just 6 minutes with easy examples.">
-
-  <title>What the heck is a Callback?</title>
-  <meta name="description" content="Learn and understand the basics of callbacks in just 6 minutes with easy examples.">
-
-  
-  <link rel="shortcut icon" type="image/x-icon" href="/portfolYOU/assets/favicon.ico">
+  <title>Jovian Dsouza</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
   <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -39,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" type="text/css"/>
   
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="/portfolYOU/assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
 
 </head>
 
@@ -49,18 +38,19 @@
   <main class="flex-shrink-0 container mt-5">
   <nav class="navbar navbar-expand-lg navbar-light">
 
-  <a class="navbar-brand" href="/portfolYOU/"><h5><b>portfolYOU</b></h5></a>
+  <a class="navbar-brand" href="/"><h5><b>Jovian Dsouza</b></h5></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/portfolYOU/projects/">Projects</a>
+    <div class="navbar-nav ml-auto">
+<a class="nav-item nav-link " href="/projects/">Projects</a>
 
-      <a class="nav-item nav-link active" href="/portfolYOU/blog/">Blog</a>
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
 
-      <a class="nav-item nav-link " href="/portfolYOU/about/">About</a>
+      <a class="nav-item nav-link " href="/about/">About</a>
 
       
 
@@ -77,22 +67,22 @@
 
   <br>Tags: 
     
-    <a class="text-decoration-none no-underline" href="/portfolYOU/blog/tags#javascript">
+    <a class="text-decoration-none no-underline" href="/blog/tags#javascript">
       <span class="tag badge badge-pill text-primary border border-primary">JavaScript</span>
     </a>
     
-    <a class="text-decoration-none no-underline" href="/portfolYOU/blog/tags#nodejs">
+    <a class="text-decoration-none no-underline" href="/blog/tags#nodejs">
       <span class="tag badge badge-pill text-primary border border-primary">Nodejs</span>
     </a>
     
-    <a class="text-decoration-none no-underline" href="/portfolYOU/blog/tags#web-development">
+    <a class="text-decoration-none no-underline" href="/blog/tags#web-development">
       <span class="tag badge badge-pill text-primary border border-primary">Web Development</span>
     </a>
     </p>
 
 <p>Source: <a href="https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced">Brandon Morelli</a></p>
 
-<p><img src="https://cdn-images-1.medium.com/max/2000/1*pWGJIKats-zuumA3RQNEWQ.jpeg" alt="" /></p>
+<p><img src="https://cdn-images-1.medium.com/max/2000/1*pWGJIKats-zuumA3RQNEWQ.jpeg" alt=""></p>
 
 <h2 id="what-is-a-callback">What is a Callback?</h2>
 
@@ -212,12 +202,12 @@
 </code></pre></div></div>
 
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">T.get</code> simply means we are making a get request to Twitter</li>
+  <li>
+<code class="language-plaintext highlighter-rouge">T.get</code> simply means we are making a get request to Twitter</li>
   <li>There are three parameters in this request: <code class="language-plaintext highlighter-rouge">‘search/tweets’</code>, which is the route of our request, <code class="language-plaintext highlighter-rouge">params</code> which are our search parameters, and then an anonymous function which is our callback.</li>
 </ul>
 
 <p>A callback is important here because we need to wait for a response from the server before we can move forward in our code. We don’t know if our API request is going to be successful or not so after sending our parameters to search/tweets via a get request, we wait. Once Twitter responds, our callback function is invoked. Twitter will either send an <code class="language-plaintext highlighter-rouge">err</code> (error) object or a <code class="language-plaintext highlighter-rouge">response</code> object back to us. In our callback function we can use an <code class="language-plaintext highlighter-rouge">if()</code> statement to determine if our request was successful or not, and then act upon the new data accordingly.</p>
-
 
 
 </div>
@@ -227,52 +217,36 @@
 
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
-    by <strong>John Doe</strong>
+    by <strong>Jovian Dsouza</strong>
   </small>
 
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.behance.net/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#1769ff'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-behance fa-1x"></i>
-    </a><a class="social mx-1"  href="mailto:username@domain.com"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
+  <div class="container-fluid justify-content-center">
+<a class="social mx-1" href="mailto:dsouzajovian123@gmail.com" style="color: #6c757d" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
       <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.facebook.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#3b5998'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.facebook.com/jovian.dsouza.7" style="color: #6c757d" onmouseover="this.style.color='#3b5998'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-facebook fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.github.com/Jovian-Dsouza" style="color: #6c757d" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.gitlab.com/Jovian-Dsouza" style="color: #6c757d" onmouseover="this.style.color='#fca326'" onmouseout="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1" href="https://www.instagram.com/jovian.dsouza.19" style="color: #6c757d" onmouseover="this.style.color='#405de6'" onmouseout="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1" href="https://www.linkedin.com/in/joviandsouza" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-linkedin-in fa-1x"></i>
-    </a><a class="social mx-1"  href="https://medium.com/@your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#00ab6c'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://medium.com/@JovianDsouza" style="color: #6c757d" onmouseover="this.style.color='#00ab6c'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-medium fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.twitter.com/your_username"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#1da1f2'"
-       onMouseOut="this.style.color='#6c757d'">
+    </a><a class="social mx-1" href="https://www.twitter.com/DsouzaJovian" style="color: #6c757d" onmouseover="this.style.color='#1da1f2'" onmouseout="this.style.color='#6c757d'">
       <i class="fab fa-twitter fa-1x"></i>
+    </a><a class="social mx-1" href="https://www.youtube.com/Jovi_tech" style="color: #6c757d" onmouseover="this.style.color='#ff0000'" onmouseout="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
     </a>
 
-</div><small id="attribution">
+</div>
+<small id="attribution">
     theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
   </small>
   
 </footer>
-  
   <!-- GitHub Buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
